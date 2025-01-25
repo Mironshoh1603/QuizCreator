@@ -52,3 +52,10 @@ th,
 td {
   padding: 10px;
 }
+
+.fa-pen-to-square {
+  color: green;
+}
+.fa-trash {
+  color: red;
+}
