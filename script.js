@@ -32,6 +32,20 @@ let renderData = (data) => {
       varian.textContent = variant.value;
       row.append(varian);
     });
+    let editTd = document.createElement("td");
+
+    let deleteTd = document.createElement("td");
+    let editBtn = document.createElement("i");
+    editBtn.setAttribute("class", "fa-solid fa-pen-to-square");
+    editBtn.setAttribute("id", data.indexOf(test));
+    let deleteBtn = document.createElement("i");
+    deleteBtn.setAttribute("class", "fa-solid fa-trash");
+    deleteBtn.setAttribute("id", data.indexOf(test));
+
+    editTd.append(editBtn);
+    deleteTd.append(deleteBtn);
+    row.append(editTd);
+    row.append(deleteTd);
     table.append(row);
   });
 };
