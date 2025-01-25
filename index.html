@@ -8,33 +8,37 @@
   </head>
   <body>
     <header><h1>Quiz Page</h1></header>
-    <div class="adding_data">
-      <input type="text" placeholder="Savalingizni Kiriting" />
+    <form class="adding_data">
+      <input
+        id="savol"
+        type="text"
+        placeholder="Savalingizni Kiriting"
+        required
+      />
       <div class="variant">
-        <input type="text" placeholder="a variant" />
-        <input type="text" placeholder="b variant" />
-        <input type="text" placeholder="c variant" />
+        <input type="text" placeholder="a variant" required />
+        <input type="text" placeholder="b variant" required />
+        <input type="text" placeholder="c variant" required />
       </div>
-      <select name="variants" id="">
+      <select name="variants" id="answer">
         <option value="0">A</option>
         <option value="1">B</option>
         <option value="2">c</option>
       </select>
       <button class="btn">Qo'shish</button>
-    </div>
+    </form>
 
     <div class="table_quiz">
       <h1>Savollar jadvali</h1>
       <table border="">
         <tr>
-          <th>Salom</th>
-          <th>Salom</th>
-          <th>Salom</th>
-        </tr>
-        <tr>
-          <td>Qalaysan</td>
+          <th>Savol</th>
+          <th>A variant</th>
+          <th>B variant</th>
+          <th>C variant</th>
         </tr>
       </table>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>

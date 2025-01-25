@@ -39,9 +39,10 @@ select,
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 70vw;
 }
 table {
-  width: 60%;
+  width: 100%;
 }
 
 tbody {
