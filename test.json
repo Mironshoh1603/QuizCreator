@@ -1,0 +1,10 @@
+[
+  {
+    "quiz_text": "hello tarjimasi",
+    "variants": [
+      { "value": "Salam", "correct": true },
+      { "value": "NIma", "correct": false },
+      { "value": "Salam1", "correct": false }
+    ]
+  }
+]

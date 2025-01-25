@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  gap: 20px;
+  height: 1000px;
+}
+header {
+  background-color: rgb(218, 151, 231);
+  width: 100%;
+  padding: 20px;
+  color: rgb(23, 136, 142);
+}
+.adding_data {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+input,
+select,
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+}
+.btn {
+  background-color: rgb(218, 151, 231);
+  padding: 10px;
+}
+
+.table_quiz {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+table {
+  width: 60%;
+}
+
+tbody {
+  width: 100%;
+}
+th,
+td {
+  padding: 10px;
+}
